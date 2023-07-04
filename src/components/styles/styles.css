@@ -1,0 +1,11 @@
+.styles-hero-img {
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+}
+.styles-hero-img-screenshot {
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 8px;
+}
