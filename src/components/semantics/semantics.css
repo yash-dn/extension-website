@@ -40,3 +40,13 @@
   width: 500px;
   height: auto;
 }
+.svg-img {
+  border: none;
+  width: 500px;
+  height: auto;
+}
+.semantic-hero-img-last {
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+}

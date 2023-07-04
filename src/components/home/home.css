@@ -29,8 +29,8 @@
   margin-right: 20px;
 }
 .content-row {
-  margin-top: 6rem;
-  margin-bottom: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
 }
 .content-heading-div {
   text-align: center;
@@ -42,4 +42,16 @@
 }
 .content-col {
   text-align: center;
+}
+.popup-img-svg {
+  width: 500px;
+  height: auto;
+}
+.full-img-svg {
+  height: 400px;
+  width: auto;
+  border: 1px solid black;
+}
+.home-hero-para {
+  color: #004880;
 }

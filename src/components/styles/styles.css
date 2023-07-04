@@ -9,3 +9,16 @@
   border: 1px solid black;
   border-radius: 8px;
 }
+.styles-svg-col {
+  margin-top: 2rem;
+}
+.svg-img-styles {
+  border: none;
+  width: 500px;
+  height: auto;
+}
+.styles-popup-img {
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+}

@@ -8,6 +8,7 @@ import { Footer } from './components/footer/footer'
 import { Semantic } from './components/semantics/semantics'
 import { Styles } from './components/styles/styles'
 import { Density } from './components/density/density'
+import { Contact } from './components/contact/contact'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/semantics" Component={Semantic} />
           <Route path="/styles" Component={Styles} />
           <Route path="/density" Component={Density} />
+          <Route path="/contact" Component={Contact} />
         </Routes>
       </BrowserRouter>
       <Footer />

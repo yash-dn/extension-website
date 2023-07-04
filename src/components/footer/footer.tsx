@@ -20,12 +20,17 @@ export const Footer = () => {
               <Row>
                 <Col>Version 0.0.1</Col>
                 <Col>
-                  <a className="footer-links" href="github.com" target="_blank">
+                  <a
+                    className="footer-links"
+                    href="https://prod-gitlab.sprinklr.com/sprinklr/frontend/interns-2023/website-dom-validation-chrome-extension"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     GitLab
                   </a>
                 </Col>
                 <Col>
-                  <a className="footer-links" href="/contact" target="_blank">
+                  <a className="footer-links" href="/contact">
                     Contact
                   </a>
                 </Col>

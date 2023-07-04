@@ -25,10 +25,7 @@ export const Header = () => {
             <Nav.Link className="navbar-color" href="/density">
               Density
             </Nav.Link>
-            <Nav.Link className="navbar-color" href="/">
-              About
-            </Nav.Link>
-            <Nav.Link className="navbar-color" href="/">
+            <Nav.Link className="navbar-color" href="/contact">
               Contact
             </Nav.Link>
           </Nav>

@@ -39,9 +39,9 @@ export const Semantic = () => {
         </Col>
         <Col className="semantic-hero-img-col">
           <img
-            src={require('../../assets/semantic-modal.png')}
+            src={require('../../assets/web-developer.png')}
             alt="semantic-img"
-            className="semantic-hero-img"
+            className="svg-img"
           />
         </Col>
       </Row>
@@ -113,10 +113,6 @@ export const Semantic = () => {
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
               Errors separated with respect to element type
             </p>
-            <p className="semantic-hero-menu-para">
-              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              Able to handle mutations on website for dynamic loading
-            </p>
           </div>
         </Col>
         <Col className="semantic-hero-img-col">
@@ -125,6 +121,38 @@ export const Semantic = () => {
             alt="semantic-img"
             className="semantic-hero-img"
           />
+        </Col>
+      </Row>
+      <Row className="semantic-row">
+        <Col className="semantic-hero-img-col">
+          <img
+            src={require('../../assets/semantic-modal.png')}
+            alt="semantic-img"
+            className="semantic-hero-img-last"
+          />
+        </Col>
+        <Col>
+          <h2 className="semantic-hero-h1">
+            Violation messages and possible fixes on the dom
+          </h2>
+          <p>
+            We evaluate the semanticity of the website based on certain gathered
+            out from extensive research from across the web
+          </p>
+          <div className="hero-menu-div">
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Highlights the elements with violations on the dom
+            </p>
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Also shows possible fixes to get rid of violation
+            </p>
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Able to handle mutations on website for dynamic loading
+            </p>
+          </div>
         </Col>
       </Row>
     </Container>

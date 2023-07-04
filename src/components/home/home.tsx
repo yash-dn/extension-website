@@ -17,6 +17,35 @@ export const Home = () => {
             Validate your websites against semantic standards, styles
             configuration and density for some specific elements
           </h4>
+          <p className="home-hero-para">
+            Traverse the dom, inspect each element individually, and report
+            errors in a presentable format
+          </p>
+        </Col>
+        <Col className="hero-row-img-column">
+          <img
+            className="popup-img-svg"
+            src={require('../../assets/home.png')}
+            alt="popup-img"
+          />
+        </Col>
+      </Row>
+      <Row className="hero-row">
+        <Col className="hero-row-img-column">
+          <img
+            className="full-img-svg"
+            src={require('../../assets/popup.png')}
+            alt="popup-img"
+          />
+        </Col>
+        <Col className="hero-row-text">
+          <h1 className="hero-h1">Features of the chrome extension</h1>
+          <p>
+            The chrome extension has been built keeping in mind the ease of
+            usage as the first priority, we also have the video explaining the
+            use case on the extension, it has been tried to keep the
+            user-interface friendly and interactive
+          </p>
           <div className="hero-menu-div">
             <p className="hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
@@ -35,13 +64,6 @@ export const Home = () => {
               Configurable for checking styles
             </p>
           </div>
-        </Col>
-        <Col className="hero-row-img-column">
-          <img
-            className="hero-row-img"
-            src={require('../../assets/popup.png')}
-            alt="popup-img"
-          />
         </Col>
       </Row>
       <Row className="content-row">

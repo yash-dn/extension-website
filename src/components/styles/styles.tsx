@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 
@@ -9,7 +9,7 @@ export const Styles = () => {
   return (
     <Container className="semantic-container">
       <Row className="semantic-row">
-        <Col>
+        <Col className="styles-svg-col">
           <h2 className="semantic-hero-h1">
             Validate styles applied to your website
           </h2>
@@ -18,26 +18,26 @@ export const Styles = () => {
             that can be input as a configuration file or you can also use
             sprinklr's default styles configuration
           </p>
-          <div className="hero-menu-div">
-            <p className="semantic-hero-menu-para">
-              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              You get two options with either default or custom configuration
-            </p>
-            <p className="semantic-hero-menu-para">
-              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              The custom file must be a JSON in the specified format
-            </p>
-            <p className="semantic-hero-menu-para">
-              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              You can download the config, edit and re-upload it
-            </p>
-          </div>
+          <p>
+            We traverse the dom and validate elements against the inputed or the
+            default styles configuration
+          </p>
+          <Button className="semantic-hero-button">
+            <a
+              href="https://www.evernote.com/shard/s480/sh/484515b5-51ef-1563-fa2a-a3e6f0859cee/smpYTrtu2ni8ZqJkRz5cFE4lW3b56uUo9VLeo8-yLHqgz0ouytw-wiUWrg"
+              target="_blank"
+              className="semantic-button-link"
+              rel="noreferrer"
+            >
+              Default Styles
+            </a>{' '}
+          </Button>
         </Col>
         <Col className="semantic-hero-img-col">
           <img
-            src={require('../../assets/styles-popup.png')}
+            src={require('../../assets/styles.png')}
             alt="semantic-img"
-            className="styles-hero-img"
+            className="svg-img-styles"
           />
         </Col>
       </Row>
@@ -55,16 +55,8 @@ export const Styles = () => {
           </h2>
           <p>
             By default, we evaluate the styles of a website's elements based on
-            a{' '}
-            <a
-              href="https://www.evernote.com/shard/s480/sh/484515b5-51ef-1563-fa2a-a3e6f0859cee/smpYTrtu2ni8ZqJkRz5cFE4lW3b56uUo9VLeo8-yLHqgz0ouytw-wiUWrg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              configuration file
-            </a>{' '}
-            gathered from spaceweb themes, your config should follow the same
-            JSON format
+            a configuration file gathered from spaceweb themes, your config
+            should follow the same JSON format
           </p>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
@@ -120,6 +112,32 @@ export const Styles = () => {
             alt="semantic-img"
             className="semantic-hero-img"
           />
+        </Col>
+      </Row>
+      <Row className="semantic-row">
+        <Col className="semantic-hero-img-col">
+          <img
+            src={require('../../assets/styles-popup.png')}
+            alt="semantic-img"
+            className="styles-popup-img"
+          />
+        </Col>
+        <Col className="semantic-hero-text-col">
+          <h2 className="semantic-hero-h1">Default and custom config file</h2>
+          <div className="hero-menu-div">
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              You get two options with either default or custom configuration
+            </p>
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              The custom file must be a JSON in the specified format
+            </p>
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              You can download the config, edit and re-upload it
+            </p>
+          </div>
         </Col>
       </Row>
     </Container>
