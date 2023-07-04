@@ -1,0 +1,42 @@
+.semantic-container {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.semantic-row {
+  margin-bottom: 7em;
+}
+.semantic-hero-text-col {
+  margin-top: 1rem;
+}
+.semantic-hero-img-col {
+  text-align: center;
+}
+.semantic-hero-img {
+  height: 400px;
+  width: auto;
+  margin: auto;
+  border: 1px solid black;
+}
+.semantic-hero-h1 {
+  color: #004880;
+  margin-bottom: 2rem;
+}
+.semantic-hero-button {
+  background-color: #004880;
+  border: none;
+  margin-top: 1rem;
+}
+.semantic-hero-button:hover {
+  background-color: #004880;
+}
+.semantic-button-link {
+  text-decoration: none;
+  color: white;
+}
+.hero-menu-para {
+  font-size: 20px;
+}
+.semantic-hero-img-screenshot {
+  width: 500px;
+  height: auto;
+}

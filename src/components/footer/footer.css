@@ -1,0 +1,29 @@
+.footer-main-div {
+  padding: 20px 0;
+  background-color: #004880;
+  color: white;
+}
+.footer-container-div {
+  margin: auto;
+}
+.sprinklr-logo {
+  width: 50px;
+  height: auto;
+}
+.footer-link {
+  color: #004880;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #004880;
+}
+.footer-logo-col {
+  text-align: 'left';
+}
+.footer-links-col {
+  padding-top: 10px;
+}
+.footer-links {
+  color: white;
+  text-decoration: none;
+}

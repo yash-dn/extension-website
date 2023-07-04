@@ -1,0 +1,15 @@
+.content-card {
+  width: 22rem;
+  margin: auto;
+}
+.card-icon {
+  color: #004880;
+  font-size: 30px;
+}
+.card-heading {
+  color: #004880;
+  font-size: 20px;
+}
+.card-link {
+  text-decoration: none;
+}
