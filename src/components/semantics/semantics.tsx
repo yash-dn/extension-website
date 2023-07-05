@@ -9,14 +9,14 @@ export const Semantic = () => {
   return (
     <Container className="semantic-container">
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             src={require('../../assets/web-developer.png')}
             alt="semantic-img"
             className="svg-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             Validate Your Website Against the Semantic Standards
           </h2>
@@ -45,7 +45,7 @@ export const Semantic = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">Semantic Standards That We Use</h2>
           <p>
             We evaluate the semanticity of the website based on certain{' '}
@@ -77,7 +77,7 @@ export const Semantic = () => {
             </p>
           </div>
         </Col>
-        <Col className="hero-column img-column-right">
+        <Col md={6} className="hero-column img-column-right">
           <img
             src={require('../../assets/semantics.png')}
             alt="semantic-img"
@@ -86,14 +86,14 @@ export const Semantic = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             src={require('../../assets/detailed-error.png')}
             alt="semantic-img"
             className="semantic-detailed-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             Get Detailed Errors and Issues On a New Tab
           </h2>
@@ -127,7 +127,7 @@ export const Semantic = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             Violation Messages and Possible Fixes On the Dom
           </h2>
@@ -154,7 +154,7 @@ export const Semantic = () => {
             </p>
           </div>
         </Col>
-        <Col className="hero-column img-column-right">
+        <Col md={6} className="hero-column img-column-right">
           <img
             src={require('../../assets/semantic-modal.png')}
             alt="semantic-img"

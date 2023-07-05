@@ -9,14 +9,14 @@ export const Styles = () => {
   return (
     <Container className="semantic-container">
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             src={require('../../assets/styles.png')}
             alt="semantic-img"
             className="styles-svg-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             Validate Styles Applied to Your Website
           </h2>
@@ -43,7 +43,7 @@ export const Styles = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             How We Validate and Show Results On Dom
           </h2>
@@ -72,7 +72,7 @@ export const Styles = () => {
             </p>
           </div>
         </Col>
-        <Col className="hero-column img-column-right">
+        <Col md={6} className="hero-column img-column-right">
           <img
             src={require('../../assets/styles-modal.png')}
             alt="semantic-img"
@@ -81,14 +81,14 @@ export const Styles = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             src={require('../../assets/styles-tab.png')}
             alt="semantic-img"
             className="styles-detailed-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">Get Detailed Errors On a New Tab</h2>
           <p>
             On running the check styles option, a new chrome tab also opens
@@ -116,7 +116,7 @@ export const Styles = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h2 className="semantic-hero-h1">
             Default and Custom Configuration File
           </h2>
@@ -135,7 +135,7 @@ export const Styles = () => {
             </p>
           </div>
         </Col>
-        <Col className="hero-column img-column-right">
+        <Col md={6} className="hero-column img-column-right">
           <img
             src={require('../../assets/styles-popup.png')}
             alt="semantic-img"

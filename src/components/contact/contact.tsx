@@ -23,7 +23,7 @@ export const Contact = () => {
     <Container className="main-form-container">
       <h1 className="form-h1">Have any questions or issues?</h1>
       <Row className="contact-row">
-        <Col className="contact-column">
+        <Col md={6} className="contact-column">
           <Form onSubmit={handleFormSubmit}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Your Name</Form.Label>
@@ -74,7 +74,7 @@ export const Contact = () => {
             </Button>
           </Form>
         </Col>
-        <Col className="contact-column img-column-right">
+        <Col md={6} className="contact-column img-column-right">
           <img
             src={require('../../assets/contact.png')}
             alt="send-mail"

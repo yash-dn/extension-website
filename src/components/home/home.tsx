@@ -11,14 +11,14 @@ export const Home = () => {
   return (
     <Container>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             className="popup-img-svg"
             src={require('../../assets/home.png')}
             alt="popup-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h1 className="hero-h1">Website Traverser Chrome Extension</h1>
           <h4>
             Validate your websites against semantic standards, styles
@@ -31,7 +31,7 @@ export const Home = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h1 className="hero-h1">Features of the Chrome Extension</h1>
           <p>
             The chrome extension has been built keeping in mind the ease of
@@ -58,7 +58,7 @@ export const Home = () => {
             </p>
           </div>
         </Col>
-        <Col className="img-column-right hero-column">
+        <Col md={6} className="img-column-right hero-column">
           <img
             className="full-img-svg"
             src={require('../../assets/popup.png')}
@@ -67,14 +67,14 @@ export const Home = () => {
         </Col>
       </Row>
       <Row className="hero-row">
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <img
             className="popup-img-svg"
             src={require('../../assets/react.png')}
             alt="popup-img"
           />
         </Col>
-        <Col className="hero-column">
+        <Col md={6} className="hero-column">
           <h1 className="hero-h1">Architecture of the Extension</h1>
           <div className="hero-menu-div">
             <p className="hero-menu-para">
@@ -100,21 +100,21 @@ export const Home = () => {
         <div className="content-heading-div">
           <h1 className="content-h1">Major Components of the Extension</h1>
         </div>
-        <Col className="hero-column home-content-card">
+        <Col md={4} className="hero-column home-content-card">
           <CardComponent
             icon="semantics"
             title="Check Semantics"
             text="Validate the website against some common semantic standards and more"
           />
         </Col>
-        <Col className="hero-column home-content-card">
+        <Col md={4} className="hero-column home-content-card">
           <CardComponent
             icon="styles"
             title="Check Styles"
             text="Validate the styles of website against default or custom configuration file"
           />
         </Col>
-        <Col className="hero-column home-content-card">
+        <Col md={4} className="hero-column home-content-card">
           <CardComponent
             icon="density"
             title="Check Density"
