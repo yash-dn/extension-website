@@ -8,10 +8,17 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 export const Density = () => {
   return (
     <Container className="semantic-container">
-      <Row className="semantic-row">
-        <Col className="styles-svg-col">
+      <Row className="hero-row">
+        <Col className="hero-column">
+          <img
+            src={require('../../assets/density.png')}
+            alt="semantic-img"
+            className="svg-img-styles"
+          />
+        </Col>
+        <Col className="hero-column">
           <h2 className="semantic-hero-h1">
-            Validate density of some specific elements
+            Validate Density of Dome Specific Elements
           </h2>
           <p>
             Validate the density or spacings of some specific elements like -
@@ -35,25 +42,11 @@ export const Density = () => {
             </a>{' '}
           </Button>
         </Col>
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/density.png')}
-            alt="semantic-img"
-            className="svg-img-styles"
-          />
-        </Col>
       </Row>
-      <Row className="semantic-row">
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/density-modal.png')}
-            alt="semantic-img"
-            className="styles-hero-img-screenshot"
-          />
-        </Col>
-        <Col>
+      <Row className="hero-row">
+        <Col className="hero-column">
           <h2 className="semantic-hero-h1">
-            Validate the density and show violations
+            Validate the Density and Show Violations
           </h2>
           <p>
             By default, we evaluate the density of specifc elements based on
@@ -80,10 +73,26 @@ export const Density = () => {
             </p>
           </div>
         </Col>
+        <Col className="hero-column img-column-right">
+          <img
+            src={require('../../assets/density-modal.png')}
+            alt="semantic-img"
+            className="styles-hero-img-screenshot"
+          />
+        </Col>
       </Row>
-      <Row className="semantic-row">
-        <Col className="semantic-hero-text-col">
-          <h2 className="semantic-hero-h1">Spacious and compact config file</h2>
+      <Row className="hero-row">
+        <Col className="hero-column">
+          <img
+            src={require('../../assets/density-popup.png')}
+            alt="semantic-img"
+            className="styles-popup-img"
+          />
+        </Col>
+        <Col className="hero-column">
+          <h2 className="semantic-hero-h1">
+            Spacious and Compact Configuration File
+          </h2>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
@@ -98,13 +107,6 @@ export const Density = () => {
               Click on submit to start the check
             </p>
           </div>
-        </Col>
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/density-popup.png')}
-            alt="semantic-img"
-            className="styles-popup-img"
-          />
         </Col>
       </Row>
     </Container>

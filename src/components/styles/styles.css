@@ -22,3 +22,13 @@
   height: auto;
   border: 1px solid black;
 }
+.styles-svg-img {
+  width: 80%;
+}
+.styles-modal-img {
+  width: 75%;
+}
+.styles-detailed-img {
+  width: 85%;
+  border: 1px solid black;
+}

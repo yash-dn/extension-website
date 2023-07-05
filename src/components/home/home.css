@@ -4,8 +4,8 @@
 .hero-row-text-column {
   margin-top: 4rem;
 }
-.hero-row-img-column {
-  text-align: center;
+.img-column-right {
+  text-align: right;
 }
 .hero-row-img {
   margin: auto;
@@ -34,7 +34,6 @@
 }
 .content-heading-div {
   text-align: center;
-  margin-bottom: 4rem;
 }
 .content-h1 {
   color: #004880;
@@ -44,7 +43,7 @@
   text-align: center;
 }
 .popup-img-svg {
-  width: 500px;
+  width: 70%;
   height: auto;
 }
 .full-img-svg {
@@ -54,4 +53,12 @@
 }
 .home-hero-para {
   color: #004880;
+}
+.hero-row,
+.hero-column {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.home-content-card {
+  margin-bottom: 4rem;
 }

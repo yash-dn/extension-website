@@ -21,9 +21,9 @@ export const Contact = () => {
   }
   return (
     <Container className="main-form-container">
-      <h1 className="form-h1">Have any questions or issues? write to us</h1>
-      <Row>
-        <Col>
+      <h1 className="form-h1">Have any questions or issues?</h1>
+      <Row className="contact-row">
+        <Col className="contact-column">
           <Form onSubmit={handleFormSubmit}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Your Name</Form.Label>
@@ -74,7 +74,7 @@ export const Contact = () => {
             </Button>
           </Form>
         </Col>
-        <Col className="contact-img-col">
+        <Col className="contact-column img-column-right">
           <img
             src={require('../../assets/contact.png')}
             alt="send-mail"

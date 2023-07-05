@@ -8,10 +8,17 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 export const Styles = () => {
   return (
     <Container className="semantic-container">
-      <Row className="semantic-row">
-        <Col className="styles-svg-col">
+      <Row className="hero-row">
+        <Col className="hero-column">
+          <img
+            src={require('../../assets/styles.png')}
+            alt="semantic-img"
+            className="styles-svg-img"
+          />
+        </Col>
+        <Col className="hero-column">
           <h2 className="semantic-hero-h1">
-            Validate styles applied to your website
+            Validate Styles Applied to Your Website
           </h2>
           <p>
             Validate the styles applied to your website against set of standards
@@ -20,7 +27,8 @@ export const Styles = () => {
           </p>
           <p>
             We traverse the dom and validate elements against the inputed or the
-            default styles configuration
+            default styles configuration to collect elemrents which violate the
+            configuration and show them in a presentable manner
           </p>
           <Button className="semantic-hero-button">
             <a
@@ -33,25 +41,11 @@ export const Styles = () => {
             </a>{' '}
           </Button>
         </Col>
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/styles.png')}
-            alt="semantic-img"
-            className="svg-img-styles"
-          />
-        </Col>
       </Row>
-      <Row className="semantic-row">
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/styles-modal.png')}
-            alt="semantic-img"
-            className="styles-hero-img-screenshot"
-          />
-        </Col>
-        <Col>
+      <Row className="hero-row">
+        <Col className="hero-column">
           <h2 className="semantic-hero-h1">
-            How we validate and show results on dom
+            How We Validate and Show Results On Dom
           </h2>
           <p>
             By default, we evaluate the styles of a website's elements based on
@@ -78,10 +72,24 @@ export const Styles = () => {
             </p>
           </div>
         </Col>
+        <Col className="hero-column img-column-right">
+          <img
+            src={require('../../assets/styles-modal.png')}
+            alt="semantic-img"
+            className="styles-modal-img"
+          />
+        </Col>
       </Row>
-      <Row className="semantic-row">
-        <Col className="semantic-hero-text-col">
-          <h2 className="semantic-hero-h1">Get detailed errors on a new tab</h2>
+      <Row className="hero-row">
+        <Col className="hero-column">
+          <img
+            src={require('../../assets/styles-tab.png')}
+            alt="semantic-img"
+            className="styles-detailed-img"
+          />
+        </Col>
+        <Col className="hero-column">
+          <h2 className="semantic-hero-h1">Get Detailed Errors On a New Tab</h2>
           <p>
             On running the check styles option, a new chrome tab also opens
             containing all the detailed errors that we found while validating
@@ -106,24 +114,12 @@ export const Styles = () => {
             </p>
           </div>
         </Col>
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/styles-tab.png')}
-            alt="semantic-img"
-            className="semantic-hero-img"
-          />
-        </Col>
       </Row>
-      <Row className="semantic-row">
-        <Col className="semantic-hero-img-col">
-          <img
-            src={require('../../assets/styles-popup.png')}
-            alt="semantic-img"
-            className="styles-popup-img"
-          />
-        </Col>
-        <Col className="semantic-hero-text-col">
-          <h2 className="semantic-hero-h1">Default and custom config file</h2>
+      <Row className="hero-row">
+        <Col className="hero-column">
+          <h2 className="semantic-hero-h1">
+            Default and Custom Configuration File
+          </h2>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
@@ -138,6 +134,13 @@ export const Styles = () => {
               You can download the config, edit and re-upload it
             </p>
           </div>
+        </Col>
+        <Col className="hero-column img-column-right">
+          <img
+            src={require('../../assets/styles-popup.png')}
+            alt="semantic-img"
+            className="styles-popup-img"
+          />
         </Col>
       </Row>
     </Container>

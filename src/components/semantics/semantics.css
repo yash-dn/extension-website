@@ -36,17 +36,25 @@
 .hero-menu-para {
   font-size: 20px;
 }
-.semantic-hero-img-screenshot {
-  width: 500px;
+.semantic-dom-img {
+  width: 80%;
   height: auto;
 }
 .svg-img {
   border: none;
-  width: 500px;
+  width: 75%;
   height: auto;
 }
 .semantic-hero-img-last {
   height: 400px;
   width: auto;
+  border: 1px solid black;
+}
+.semantic-detailed-img {
+  width: 80%;
+  border: 1px solid black;
+}
+.semantic-img-modal {
+  width: 70%;
   border: 1px solid black;
 }

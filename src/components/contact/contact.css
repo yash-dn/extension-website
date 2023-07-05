@@ -1,7 +1,7 @@
 .main-form-container {
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 5rem;
-  min-height: 64vh;
+  min-height: 67vh;
 }
 .form-mail-img {
   width: 550px;
@@ -12,8 +12,8 @@
   color: #004880;
   margin-bottom: 3rem;
 }
-.contact-img-col {
-  text-align: center;
+.contact-col {
+  margin-top: 2rem;
 }
 .form-submit-button {
   background-color: #004880;
@@ -21,4 +21,10 @@
 }
 .form-submit-button:hover {
   background-color: #004880;
+}
+.contact-row {
+  margin-top: 2rem;
+}
+.img-column-right {
+  text-align: right;
 }
