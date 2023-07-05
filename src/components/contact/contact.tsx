@@ -59,7 +59,7 @@ export const Contact = () => {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Example textarea</Form.Label>
+              <Form.Label>Your Message</Form.Label>
               <Form.Control
                 required
                 as="textarea"

@@ -66,6 +66,36 @@ export const Home = () => {
           </div>
         </Col>
       </Row>
+      <Row className="hero-row">
+        <Col className="hero-row-text-column">
+          <h1 className="hero-h1">Architecture of the extension</h1>
+          <div className="hero-menu-div">
+            <p className="hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Built using React Js and typescript
+            </p>
+            <p className="hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Follows container and presentational components patterns
+            </p>
+            <p className="hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Render props, controlled components, conditional rendering
+            </p>
+            <p className="hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Testing using Jest in Typescript
+            </p>
+          </div>
+        </Col>
+        <Col className="hero-row-img-column">
+          <img
+            className="popup-img-svg"
+            src={require('../../assets/react.png')}
+            alt="popup-img"
+          />
+        </Col>
+      </Row>
       <Row className="content-row">
         <div className="content-heading-div">
           <h1 className="content-h1">Major Components of the Extension</h1>
