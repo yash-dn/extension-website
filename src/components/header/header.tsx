@@ -17,16 +17,24 @@ export const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className="navbar-color" href="/semantics">
-              Semantics
+              <p>Semantics</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/styles">
-              Styles
+              <p>Styles</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/density">
-              Density
+              <p className="nav-para">Density</p>
+            </Nav.Link>
+            <Nav.Link
+              className="navbar-color"
+              href="https://www.evernote.com/shard/s480/sh/e6c82f98-290e-f99f-b369-69e0da17f55e/sOpzCJ0NUErWUBJbC1ZEPN2PXmcmjKfiIIsBv5GHGcFHZXilEMxqK5asyg"
+              target="_blank"
+              rel="noreferror"
+            >
+              <p className="nav-para">Usage</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/contact">
-              Contact
+              <p>Contact</p>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

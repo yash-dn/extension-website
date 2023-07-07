@@ -8,3 +8,9 @@
 .navbar-color:hover {
   color: white;
 }
+.navbar-color::after {
+  color: white;
+}
+.nav-para {
+  color: white;
+}
