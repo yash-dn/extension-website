@@ -49,14 +49,8 @@ export const Semantic = () => {
           <h2 className="semantic-hero-h1">Semantic Standards That We Use</h2>
           <p>
             We evaluate the semanticity of the website based on certain{' '}
-            <a
-              href="https://www.evernote.com/shard/s480/sh/24d37a83-a0dc-db51-e794-1b3a239d2977/WyEC3u1Ci1vRuVf9vT180-bmuip76_B8fZ2_4_a3OKUr8KB855hX6LNqGw"
-              target="_blank"
-              rel="noreferrer"
-            >
-              standards
-            </a>{' '}
-            gathered out from extensive research from across the web
+            <a href="/semantics/standards">standards</a> gathered out from
+            extensive research from across the web
           </p>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">

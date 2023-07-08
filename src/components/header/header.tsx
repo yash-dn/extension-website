@@ -25,12 +25,7 @@ export const Header = () => {
             <Nav.Link className="navbar-color" href="/density">
               <p className="nav-para">Density</p>
             </Nav.Link>
-            <Nav.Link
-              className="navbar-color"
-              href="https://www.evernote.com/shard/s480/sh/e6c82f98-290e-f99f-b369-69e0da17f55e/sOpzCJ0NUErWUBJbC1ZEPN2PXmcmjKfiIIsBv5GHGcFHZXilEMxqK5asyg"
-              target="_blank"
-              rel="noreferror"
-            >
+            <Nav.Link className="navbar-color" href="/usage">
               <p className="nav-para">Usage</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/contact">

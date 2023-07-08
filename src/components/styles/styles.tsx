@@ -31,12 +31,7 @@ export const Styles = () => {
             configuration and show them in a presentable manner
           </p>
           <Button className="semantic-hero-button">
-            <a
-              href="https://www.evernote.com/shard/s480/sh/484515b5-51ef-1563-fa2a-a3e6f0859cee/smpYTrtu2ni8ZqJkRz5cFE4lW3b56uUo9VLeo8-yLHqgz0ouytw-wiUWrg"
-              target="_blank"
-              className="semantic-button-link"
-              rel="noreferrer"
-            >
+            <a href="/styles/configuration" className="semantic-button-link">
               Default Styles
             </a>{' '}
           </Button>

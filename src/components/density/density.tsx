@@ -32,12 +32,7 @@ export const Density = () => {
             element on the dom itself
           </p>
           <Button className="semantic-hero-button">
-            <a
-              href="https://www.evernote.com/shard/s480/sh/1d6fe3fc-3c1f-aca2-9f41-c7e6688c82e7/VvYjwh9m679Rik4Cw5a_m0OpfwDPmXeqFo3MvDGY-Pt4C5HNhhWD8mZV2A"
-              target="_blank"
-              className="semantic-button-link"
-              rel="noreferrer"
-            >
+            <a href="/density/configuration" className="semantic-button-link">
               Density Config
             </a>{' '}
           </Button>

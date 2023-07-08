@@ -58,3 +58,30 @@
   width: 70%;
   border: 1px solid black;
 }
+.standards-row {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.standards-column {
+  text-align: right;
+}
+.standards-h1 {
+  color: #004880;
+  margin-bottom: 1rem;
+}
+.standards-img {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.standards-h3 {
+  color: #004880;
+}
+.standards-ul {
+  margin-left: 1rem;
+}
+.standards-li {
+  color: #004880;
+  font-size: 22px;
+  margin-top: 2rem;
+}
