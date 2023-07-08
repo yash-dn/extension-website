@@ -15,17 +15,18 @@ export const DensityConfig = () => {
   }, [])
   return (
     <Container>
-      <Row className="standards-row">
+      <Row className="density-standards-row">
         <Col md={6}>
-          <h1 className="standards-h1">The semantic standards we follow</h1>
-          <h5>Why do we need to worry about semanticity</h5>
+          <h1 className="standards-h1">The density standards we follow</h1>
+          <h5>
+            The default density configuration against which we evaluate specific
+            elements on the website
+          </h5>
           <ul>
-            <li>Readability Issues</li>
-            <li>Accessibility Issues</li>
-            <li>
-              Consistency issues, its better everyone follow same conventions
-            </li>
-            <li>SEO issues</li>
+            <li>Spacious Density for spacious view</li>
+            <li>Compact density for compact view of the page</li>
+            <li>Alternatively, users can also input their own configuration</li>
+            <li>Make sure the config is JSON and follows correct pattern</li>
           </ul>
         </Col>
         <Col md={6} className="standards-column">
@@ -36,7 +37,7 @@ export const DensityConfig = () => {
           />
         </Col>
       </Row>
-      <Row className="standards-row">
+      <Row className="density-standards-row-bottom">
         <h3 className="density-h3">The spacious density config</h3>
         <pre className="styles-pre">
           <code className="styles-code">{spacious}</code>

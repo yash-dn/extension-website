@@ -86,7 +86,7 @@ export const Density = () => {
         </Col>
         <Col className="hero-column">
           <h2 className="semantic-hero-h1">
-            Spacious and Compact Configuration File
+            Spacious, Compact, and Custom Configuration File
           </h2>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
@@ -96,6 +96,10 @@ export const Density = () => {
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
               The user must select one of the two to proceed
+            </p>
+            <p className="semantic-hero-menu-para">
+              <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
+              Alternatively, upload a custom configuration file
             </p>
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />

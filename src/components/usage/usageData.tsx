@@ -91,7 +91,8 @@ export const densityData = [
     value: [
       'Validate against the spacious styles configuration',
       'Or, validate against the compact view configuration',
-      'The configuration options can be viewed in the desnity section of this website',
+      'Or, alternatively you can also upload custom configuration file for density',
+      'The configuration options can be viewed in the density section of this website',
     ],
   },
   {
@@ -101,6 +102,12 @@ export const densityData = [
   {
     key: 'A new tab opens using which you can see the detailed violation and get full path in the html tree and get to highlight specific elements',
     value: [],
+  },
+  {
+    key: 'You can even upload a custom cofiguration file',
+    value: [
+      'Just make sure to strictly follow the given pattern in a JSON file',
+    ],
   },
   {
     key: 'Similar to the other two options, here also the dom gets modified with cross-icons clicking which opens a modal showing the error messages',
