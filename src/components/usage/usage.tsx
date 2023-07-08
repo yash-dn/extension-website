@@ -121,7 +121,7 @@ export const Usage = () => {
         </Col>
         <Col md={6} className="standards-column">
           <img
-            src={require('../../assets/density-popup.png')}
+            src={require('../../assets/desnity-popupo.png')}
             alt="semantic-guide"
             className="usage-image-right"
           />
