@@ -79,7 +79,7 @@ export const Density = () => {
       <Row className="hero-row">
         <Col className="hero-column">
           <img
-            src={require('../../assets/density-popup.png')}
+            src={require('../../assets/desnity-popupo.png')}
             alt="semantic-img"
             className="styles-popup-img"
           />
