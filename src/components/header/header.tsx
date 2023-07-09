@@ -17,10 +17,10 @@ export const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className="navbar-color" href="/semantics">
-              <p>Semantics</p>
+              <p className="nav-para">Semantics</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/styles">
-              <p>Styles</p>
+              <p className="nav-para">Styles</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/density">
               <p className="nav-para">Density</p>
@@ -29,7 +29,15 @@ export const Header = () => {
               <p className="nav-para">Usage</p>
             </Nav.Link>
             <Nav.Link className="navbar-color" href="/contact">
-              <p>Contact</p>
+              <p className="nav-para">Contact</p>
+            </Nav.Link>
+            <Nav.Link
+              className="navbar-color"
+              href="https://drive.google.com/file/d/1Qnc9sTqCCzbjlUCUXiBKQM47M-NbmeLG/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="nav-para">Video</p>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
