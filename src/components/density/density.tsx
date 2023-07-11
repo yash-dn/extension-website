@@ -23,8 +23,7 @@ export const Density = () => {
           <p>
             Validate the density or spacings of some specific elements like -
             heading and main, buttons or rows of the heading and more. We
-            support configuration for two types of spacing - spacious and
-            compact
+            support configuration of three types - spacious, compact and custom
           </p>
           <p>
             Similar to the other two options of the extension, here also we open
@@ -45,7 +44,8 @@ export const Density = () => {
           </h2>
           <p>
             By default, we evaluate the density of specifc elements based on
-            option provided by user to choose spacious or compact spacing
+            config file provided by user or by choosing spacious or compact
+            spacing
           </p>
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
@@ -79,7 +79,7 @@ export const Density = () => {
       <Row className="hero-row">
         <Col className="hero-column">
           <img
-            src={require('../../assets/desnity-popupo.png')}
+            src={require('../../assets/density-popup.png')}
             alt="semantic-img"
             className="styles-popup-img"
           />
@@ -91,15 +91,16 @@ export const Density = () => {
           <div className="hero-menu-div">
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              You get two options with either spacious or compact configuration
+              You get three options with spacious, compact or custom
+              configuration
             </p>
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              The user must select one of the two to proceed
+              The user must select one of the three to proceed
             </p>
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />
-              Alternatively, upload a custom configuration file
+              The uploaded config must be a valid JSON file
             </p>
             <p className="semantic-hero-menu-para">
               <FontAwesomeIcon className="check-icon" icon={faCircleCheck} />

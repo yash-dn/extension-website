@@ -18,7 +18,7 @@ export const Footer = () => {
             </Col>
             <Col xs={4} className="footer-links-col">
               <Row>
-                <Col>Version 0.0.1</Col>
+                <Col>Version 0.0.2</Col>
                 <Col>
                   <a
                     className="footer-links"

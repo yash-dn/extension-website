@@ -14,8 +14,28 @@ export const Usage = () => {
           <ul>
             <li>The workflow of the extension</li>
             <li>Separate usage for semantics option</li>
-            <li>Separate usage for styles option</li>
-            <li>Separate usage for density option</li>
+            <li>Separate usage for styles and density option</li>
+            <li>
+              Extension can be installed from -{' '}
+              <a
+                href="https://chrome.google.com/webstore/detail/dom-traversal-extension/dfmlldndmgpnehmldhgejcpeoggjhhjj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                DOM Validation Extension
+              </a>
+            </li>
+            <li>
+              Alternatively, the extension can be set up and loaded unpacked
+              locally from -{' '}
+              <a
+                href="https://prod-gitlab.sprinklr.com/sprinklr/frontend/interns-2023/website-dom-validation-chrome-extension"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitLab
+              </a>
+            </li>
           </ul>
         </Col>
         <Col md={6} className="standards-column">
@@ -121,7 +141,7 @@ export const Usage = () => {
         </Col>
         <Col md={6} className="standards-column">
           <img
-            src={require('../../assets/desnity-popupo.png')}
+            src={require('../../assets/density-popup.png')}
             alt="semantic-guide"
             className="usage-image-right"
           />
